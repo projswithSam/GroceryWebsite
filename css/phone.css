@@ -1,0 +1,81 @@
+/* Naye features for phone view  */
+
+/* Navigation */
+#navbar{
+    text-shadow: 2px;
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 6px;
+}
+
+
+/* Home Section  */
+
+#home{
+    height: 296px;
+    left: 0px;
+    padding: 3px 28px;
+
+}
+#home::before{
+    height: 480px;
+    /* height: 280px; */
+
+}
+#home p{
+     font-size: 13px;
+}
+
+/* services section  */
+#services{
+    flex-direction: column;
+
+}
+#services .box{
+    padding: 14px;
+    margin: 10px 50px;
+    border-radius: 28px;
+    background-color: yellowgreen;
+    justify-content: center;
+
+
+}
+#services .box img{
+    height: 100px;
+    margin: auto;
+    display: block;
+    
+     
+}
+/* client section  */
+#clients{
+    /* overflow: hidden;  */
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 66px;
+    padding: 2px 6px;
+    height: auto;
+}
+
+
+/* contact section  */
+#contact-box form{
+    width: 80%;
+}
+
+
+/* footer  */
+
+
+/* Utility classes  */
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
